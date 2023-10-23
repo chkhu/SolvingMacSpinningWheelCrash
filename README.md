@@ -24,9 +24,11 @@ This repository proposes a automatic solution to the rainbow-colored spinning wh
 
    Run the following command in the terminal:
 
-	```bash
-	launchctl load 	~/Library/LaunchAgents/com.usr.killscim.plist
-	```
+   ```bash
+   launchctl load 	~/Library/LaunchAgents/com.usr.killscim.plist
+   ```
+
+   <img src="README.assets/image-20231023170114059.png" alt="image-20231023170114059" style="zoom:33%;" />
 
 4. **Logging and troubleshooting**
 
