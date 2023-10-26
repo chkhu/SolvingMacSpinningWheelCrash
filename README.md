@@ -1,6 +1,8 @@
 # SolvingMacSpinningWheelCrash
 
-This repository proposes a automatic solution to the rainbow-colored spinning wheel crash bug in macOS Ventura or higher.
+This repository proposes a automatic solution to the rainbow-colored spinning wheel crash problem in macOS Ventura or higher.
+
+If you experienced cursor turning into a spinning wheel when you were not able to operate anything (The cursor is still movable, but the OS is hardly responsive). Then this method is worth trying. It is a totally **automatic and once-for-all** solution. 
 
 ## Usage
 
@@ -35,6 +37,8 @@ This repository proposes a automatic solution to the rainbow-colored spinning wh
    If you need to see if the task is running or look for any possible problems, look at '/var/log/system.log'. You can view this log using the 'Console' application or the 'tail' command in the terminal.
 
 
+
+Below shows more details on the analyzing process. Feel free to skip it. Doing by the above instructions is enough for solving your problem.
 
 ## Problem
 
@@ -77,7 +81,7 @@ ps aux | grep '[S]CIM_Extension' | awk '{print $2}' | xargs kill -9
 
 #### **Using`launchd`**
 
-`launchd` is macOS's initialization and service management framework, capable of managing both daemons and agents. It's the standard method in macOS for managing background tasks and scheduled tasks, so I selected it for the solution.
+`launchd` is macOS's initialization and service management framework, capable of managing both daemons and agents. It's the standard method in macOS for managing background tasks and scheduled tasks.
 
 #### **Creating a `.plist` File**
 
