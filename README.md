@@ -2,7 +2,7 @@
 
 This repository proposes a automatic solution to the rainbow-colored spinning wheel crash problem in macOS Ventura or higher.
 
-If you experienced cursor turning into a spinning wheel when you were not able to operate anything (The cursor is still movable, but the OS is hardly responsive). Then this method is worth trying. It is a totally **automatic and once-for-all** solution. 
+If you have experienced cursor turning into a spinning wheel when you were not able to operate anything (The cursor is still movable, but the OS is hardly responsive), then this method is worth trying. **It is a totally automatic and once-for-all solution.** 
 
 ## Usage
 
