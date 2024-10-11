@@ -1,4 +1,4 @@
-# SolvingMacSpinningWheelCrash
+# Solving the 'SpinningWheel' Crash on MacOS
 
 This repository proposes a automatic solution to the rainbow-colored spinning wheel crash problem in macOS Ventura or higher.
 
